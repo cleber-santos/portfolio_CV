@@ -22,14 +22,6 @@
   <img alt="Github stars" src="https://img.shields.io/github/stars/cleber-santos/portfolio_CV?color=56BEB8" />
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center">
-	🚧  Portfolio_website _CV 🚀 Em construção...  🚧
-</h4>
-
-<hr> -->
-
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
