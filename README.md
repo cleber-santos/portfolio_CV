@@ -1,5 +1,9 @@
 <div align="center" id="top"> 
-  <img src="https://user-images.githubusercontent.com/62780876/163990400-4cced913-0b04-4efe-94cb-a1e69039ce2a.jpg" alt="Octacat personalizado" />
+  <img 
+    src="https://user-images.githubusercontent.com/62780876/163990400-4cced913-0b04-4efe-94cb-a1e69039ce2a.jpg"
+    alt="Octacat personalizado"
+    width="150px"
+  />
 
 &#xa0;
 
@@ -13,15 +17,9 @@
 
   <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/cleber-santos/portfolio_CV?color=56BEB8">
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/cleber-santos/portfolio_CV?color=56BEB8">
-
   <img alt="Licença" src="https://img.shields.io/github/license/cleber-santos/portfolio_CV?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/cleber-santos/portfolio_CV?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/cleber-santos/portfolio_CV?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/cleber-santos/portfolio_CV?color=56BEB8" /> -->
+  <img alt="Github stars" src="https://img.shields.io/github/stars/cleber-santos/portfolio_CV?color=56BEB8" />
 </p>
 
 <!-- Status -->
