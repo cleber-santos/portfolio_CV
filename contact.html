@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="style/styleContact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="navigation">
+      <div class="banner">
+        <img
+          src="https://user-images.githubusercontent.com/62780876/163990400-4cced913-0b04-4efe-94cb-a1e69039ce2a.jpg"
+          alt="Octacat personalizado"
+          class="cover2"
+        />
+      </div>
+      <div class="navLink">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Sobre mim</a></li>
+          <li>
+            <a href="https://github.com/cleber-santos" target="_blank"
+              >Portfólio</a
+            >
+          </li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="sec">
+      <header>
+        <div class="toggle"></div>
+      </header>
+
+      <div class="imgBx">
+        <img
+          src="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80"
+          alt="Foto de uma pessoa segurando um celular em frente a um laptop"
+          class="cover"
+        />
+      </div>
+
+      <section class="contact" id="contact">
+        <div class="content">
+          <h2><span>Contato</span></h2>
+          <p></p>
+        </div>
+
+        <div class="contactForm">
+          <div class="row">
+            <div class="col50">
+              <input
+                type="text"
+                id="nomeid"
+                name="nome"
+                placeholder="Nome"
+                required="required"
+              />
+            </div>
+            <div class="col50">
+              <input
+                type="text"
+                id="sobrenomeid"
+                name="sobrenome"
+                placeholder="Sobrenome"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col50">
+              <input
+                type="text"
+                id="emailid"
+                name="email"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="col50">
+              <input
+                type="text"
+                id="foneid"
+                name="fone"
+                placeholder="Telefone"
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col100">
+              <textarea
+                name="msg"
+                placeholder="Escreva sua mensagem"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col100">
+              <input
+                type="submit"
+                value="Enviar"
+                class="enviar"
+                onclick="enviar();"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Form End-->
+      </section>
+
+      <footer>
+        <ul class="sci">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/cleber-rodrigo-santos/"
+              target="_blank"
+              ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/cleber-santos" target="_blank"
+              ><i class="fa fa-github-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="mailto:cleber7284@gmail.com"
+              ><i class="fa fa-envelope" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+
+        <p class="copyrightText">©2022 by Cleber Santos</p>
+      </footer>
+    </section>
+
+    <script src="script/script.js"></script>
+  </body>
+</html>

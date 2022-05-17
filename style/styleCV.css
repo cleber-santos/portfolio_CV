@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background: #0a66c2;
+  --main-color: #FFFFFF;
+  --left-background: #222A42;
+  --color-border: #4E5568;
+  --grey-color: #4e4e4d;
+}
+
+body{
+  background: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.close{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.close a{
+  text-decoration: none;
+}
+
+.close a.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 10px;
+  background: var(--left-background);
+  border-radius: 6px;
+}
+
+.close a.icon:hover{
+  transition: 0.3s;
+  background: var(--grey-color);
+}
+
+.close a i.fa{
+  display: block;
+  width: 30px;
+  font-size: 20px;
+  margin-bottom: 2px;
+  color: var(--main-color);
+}
+
+.close a div.btn{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: var(--main-color);
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: var(--main-color);
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.3);
+}
+
+/* Left side  ***********************************************************************************/
+
+.container .left_side{
+  position: relative;
+  background: var(--left-background);
+  padding: 40px;
+}
+
+.profileText{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.profileText .imgBox{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileText .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileText h2{
+  color: var(--main-color);
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.profileText h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contactInfo{
+  padding-top: 40px;
+}
+
+.title{
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.contactInfo ul{
+  position: relative;
+}
+
+.contactInfo ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contactInfo ul li .icon{
+  display: block;
+  width: 30px;
+  font-size: 20px;
+  color: var(--background);
+  margin-bottom: 2px;
+}
+
+.contactInfo ul li span{
+  color: var(--main-color);
+  font-weight: 300;
+}
+
+.contactInfo.education li{
+  margin-bottom: 15px;
+}
+
+.contactInfo.education h4{
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2){
+  color: var(--main-color);
+  font-weight: 300;
+  margin-top: 2px;
+}
+
+.contactInfo.education h5{
+  color: var(--background);
+  font-weight: 500;
+}
+
+.contactInfo.lang .percent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #4e4e4d;
+  display: block;
+  margin-top: 5px;
+}
+
+.contactInfo.lang .percent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #f68f1e;
+}
+
+/* Right Side  ******************************************************************************************/
+
+.container .right_side{
+  position: relative;
+  background: var(--main-color);
+  padding: 40px;
+}
+
+.about {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.about:last-child{
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.title2{
+  color: var(--left-background);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+p{
+  color: var(--grey-color);
+}
+
+.about .box{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.about .box .year_company{
+  min-width: 150px;
+  width: 40%;
+}
+
+.about .box .year_company h5{
+  text-transform: uppercase;
+  color: var(--grey-color);
+
+}
+
+.about .box .text{
+  width: 60%;
+}
+
+.about .box .text h4{
+  text-transform: uppercase;
+  color: var(--background);
+  font-size: 16px;
+}
+
+.skills .box{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .box h4{
+  text-transform: uppercase;
+  color: var(--grey-color);
+  font-weight: 500;
+}
+
+.skills .box .percent{
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #dbdbdb;
+}
+
+.skills .box .percent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: var(--background);
+}
+
+.interest ul{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.interest ul li{
+  list-style: none;
+  color: var(--background);
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.interest ul li .fa{
+  color: var(--background);
+  font-size: 20px;
+  width: 20px;
+}
+
+/* responsive  ****************************************************************************/
+
+@media (max-width: 1000px) {
+  .container{
+    margin: 50px 4px 4px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .interest ul{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .about .box{
+    flex-direction: column;
+  }
+  .about .box .year_company {
+    margin-bottom: 5px;
+  }
+  .skills .box {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skills .box h4 {
+    margin-bottom: 5px;
+  }
+
+  .close a div.btn{
+    font-size: 0.8em;
+  }
+
+  .close a i.fa {
+    width: 18px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .interest ul{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
