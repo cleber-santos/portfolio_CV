@@ -67,7 +67,7 @@ $ code .
 ```
 ## :desktop_computer: Deploy
 
- :heavy_check_mark: <a href="" target="_blank">Portfólio</a>
+ :heavy_check_mark: <a href="https://cleber-santos.github.io/portfolio_CV/" target="_blank">Portfólio</a>
 ## :memo: Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE.md](https://github.com/cleber-santos/portfolio_CV/blob/main/LICENSE) para mais detalhes.
