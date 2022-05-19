@@ -2,12 +2,10 @@
   <img 
     src="https://user-images.githubusercontent.com/62780876/163990400-4cced913-0b04-4efe-94cb-a1e69039ce2a.jpg"
     alt="Octacat personalizado"
-    width="150px"
+    width="120px"
   />
 
 &#xa0;
-
-  <!-- <a href="https://portfolio_website_cv.netlify.com">Demo</a> -->
 </div>
 
 <h1 align="center">Página de Portfólio com currículo</h1>
@@ -26,8 +24,8 @@
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#sparkles-funcionalidades">Funcionalidades</a> &#xa0; | &#xa0;
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-pré-requisitos">Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
+  <a href="#desktop_computer-deploy">Deploy</a> &#xa0; | &#xa0;
   <a href="#memo-licença">Licença</a> &#xa0; | &#xa0;
   <a href="https://github.com/cleber-santos" target="_blank">Autor</a>
 </p>
@@ -36,27 +34,21 @@
 
 ## :dart: Sobre
 
-Sobre o seu projeto
+Pagina web tipo portfólio, focado em responsividade. Feito usando apenas HTML, CSS e JS.
+Usando dicas e tutorias 100% gratuitos na internet. Principal referencia usando o canal do youtube [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers), e [w3 schools](https://www.w3schools.com/).
 
 ## :sparkles: Funcionalidades
 
-:heavy_check_mark: Funcionalidade 1;\
-:heavy_check_mark: Funcionalidade 2;\
-:heavy_check_mark: Funcionalidade 3;
-
+:heavy_check_mark: Site 100% responsivo.\
+:heavy_check_mark: Pagina de CV para download.\
+:heavy_check_mark: Alguns efeitos de transições.
 ## :rocket: Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-
-## :white_check_mark: Pré requisitos
-
-Antes de começar :checkered_flag:, você precisa ter o [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados em sua maquina.
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS3](https://www.w3schools.com/css/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## :checkered_flag: Começando
 
@@ -67,15 +59,15 @@ $ git clone https://github.com/cleber-santos/portfolio_CV
 # Entre na pasta
 $ cd portfolio_CV
 
-# Instale as dependências
-$ yarn
+# abra pelo VsCode
+$ code .
 
-# Para iniciar o projeto
-$ yarn start
 
-# O app vai inicializar em <http://localhost:3000>
+# recomendo ter a extensão Go live no seu VsCode.
 ```
+## :desktop_computer: Deploy
 
+ :heavy_check_mark: <a href="" target="_blank">Portfólio</a>
 ## :memo: Licença
 
 Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
